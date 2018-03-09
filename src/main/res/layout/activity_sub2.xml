@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:anroid="http://schemas.android.com/apk/res/android"
+    anroid:layout_height="match_parent"
+    anroid:layout_width="match_parent"
+    anroid:orientation="vertical">
+
+
+    <TextView
+        anroid:id="@+id/textview2"
+        anroid:layout_width="wrap_content"
+        anroid:layout_height="wrap_content"
+        anroid:text="Trainging and Placement Details"
+        anroid:layout_gravity="center"
+        anroid:layout_marginTop="50dp"
+        anroid:textColor="@android:color/holo_orange_dark"
+        anroid:textSize="24sp"/>
+
+    <EditText
+        anroid:id="@+id/edittext1"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="wrap_content"
+        anroid:text="Enter Name of Company"
+        anroid:layout_marginTop="50dp"
+        anroid:layout_marginLeft="50dp"
+        anroid:layout_marginRight="50dp"
+        anroid:layout_gravity="center"/>
+
+    <EditText
+        anroid:id="@+id/edittext2"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="wrap_content"
+        anroid:text="Salary/Package"
+        anroid:layout_marginTop="30dp"
+        anroid:layout_marginLeft="50dp"
+        anroid:layout_marginRight="50dp"
+        anroid:layout_gravity="center"/>
+
+    <EditText
+        anroid:id="@+id/edittext3"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="wrap_content"
+        anroid:text="Experiance"
+        anroid:layout_marginTop="30dp"
+        anroid:layout_marginLeft="50dp"
+        anroid:layout_marginRight="50dp"
+        anroid:layout_gravity="center"/>
+
+    <EditText
+        anroid:id="@+id/edittext4"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="wrap_content"
+        anroid:text="Place"
+        anroid:layout_marginTop="30dp"
+        anroid:layout_marginLeft="50dp"
+        anroid:layout_marginRight="50dp"
+        anroid:layout_gravity="center"/>
+
+    <Button
+        anroid:id="@+id/button1"
+        anroid:layout_width="wrap_content"
+        anroid:layout_height="wrap_content"
+        anroid:layout_gravity="center"
+        anroid:layout_marginTop="15dp"
+        anroid:text="submit"/>
+
+    <Button
+        anroid:id="@+id/button2"
+        anroid:layout_width="wrap_content"
+        anroid:layout_height="wrap_content"
+        anroid:layout_gravity="center"
+        anroid:layout_marginLeft="100dp"
+        anroid:text="next"
+        anroid:layout_marginTop="20dp"/>
+
+</LinearLayout>
